@@ -11,7 +11,7 @@ body {
 .hero {
     position: relative;
     height: 100vh;
-    background: url('/noyes-website/assets/images/forest-fog.jpg') center/cover no-repeat;
+    background: url('../assets/images/forest-fog.jpg') center/cover no-repeat;
     color: #fff;
     text-align: center;
     display: flex;
@@ -81,32 +81,32 @@ body {
 }
 
 #pnc {
-    background: url('/noyes-website/assets/images/pnc.png') center/cover no-repeat;
+    background: url('../assets/images/pnc.png') center/cover no-repeat;
     transition: transform 0.3s ease-in-out;
 }
 
 #schneider {
-    background: url('/noyes-website/assets/images/new_schneider.png') center/cover no-repeat;
+    background: url('../assets/images/new_schneider.png') center/cover no-repeat;
     transition: transform 0.3s ease-in-out;
 }
 
 #hapeman {
-    background: url('/noyes-website/assets/images/hapeman_fb.png') center/cover no-repeat;
+    background: url('../assets/images/hapeman_fb.png') center/cover no-repeat;
     transition: transform 0.3s ease-in-out;
 }
 
 #automationFramework {
-    background: url('/noyes-website/assets/images/automation_framework.png') center/cover no-repeat;
+    background: url('../assets/images/automation_framework.png') center/cover no-repeat;
     transition: transform 0.3s ease-in-out;
 }
 
 #gptBot {
-    background: url('/noyes-website/assets/images/chat_gpt_bot.png') center/cover no-repeat;
+    background: url('../assets/images/chat_gpt_bot.png') center/cover no-repeat;
     transition: transform 0.3s ease-in-out;
 }
 
 #musicBot {
-    background: url('/noyes-website/assets/images/music_bot.png') center/cover no-repeat;
+    background: url('../assets/images/music_bot.png') center/cover no-repeat;
     transition: transform 0.3s ease-in-out;
 }
 
