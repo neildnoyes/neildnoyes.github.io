@@ -1,0 +1,143 @@
+body {
+    font-family: 'Oswald', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow-x: hidden; /* Hide horizontal scrollbar */
+    scroll-behavior: smooth; /* Enable smooth scrolling */
+}
+
+/* Header Styles */
+.hero {
+    position: relative;
+    height: 100vh;
+    background: url('/noyes-website/assets/images/forest-fog.jpg') center/cover no-repeat;
+    color: #fff;
+    text-align: center;
+    display: flex;
+    align-items: center;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, .3); /* Adjust the overlay color and opacity */
+}
+
+.hero-content {
+    z-index: 1;
+    margin: 0 auto;
+}
+
+.hero h1 {
+    font-size: 3em;
+    margin: 0;
+}
+
+.hero p {
+    font-size: 1.5em;
+    margin-top: 10px;
+}
+
+/* Portfolio Section Styles */
+.portfolio-section {
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.projects-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.project {
+    width: calc(33.33% - 20px);
+    margin-bottom: 20px;
+    padding: 20px;
+    border: 1px solid #ddd;
+    box-sizing: border-box;
+    background-color: #fff;
+    transition: transform 0.3s ease-in-out;
+}
+
+.project h3, .project p {
+    visibility: hidden;
+    transition: transform 0.3s ease-in-out;
+}
+
+.project:hover {
+    transform: translateY(-70px);
+    cursor: pointer;
+}
+
+.project:hover p {
+    visibility: visible;
+    text-shadow: 4px 4px 12px rgba(255, 255, 255, 1);
+    transform: translateY(120px);
+}
+
+#pnc {
+    background: url('/noyes-website/assets/images/pnc.png') center/cover no-repeat;
+    transition: transform 0.3s ease-in-out;
+}
+
+#schneider {
+    background: url('/noyes-website/assets/images/new_schneider.png') center/cover no-repeat;
+    transition: transform 0.3s ease-in-out;
+}
+
+#hapeman {
+    background: url('/noyes-website/assets/images/hapeman_fb.png') center/cover no-repeat;
+    transition: transform 0.3s ease-in-out;
+}
+
+#automationFramework {
+    background: url('/noyes-website/assets/images/automation_framework.png') center/cover no-repeat;
+    transition: transform 0.3s ease-in-out;
+}
+
+#gptBot {
+    background: url('/noyes-website/assets/images/chat_gpt_bot.png') center/cover no-repeat;
+    transition: transform 0.3s ease-in-out;
+}
+
+#musicBot {
+    background: url('/noyes-website/assets/images/music_bot.png') center/cover no-repeat;
+    transition: transform 0.3s ease-in-out;
+}
+
+/* Resume Section Styles */
+.resume-section {
+    padding: 50px 20px 50px; /* Add extra bottom padding to give space for the footer */
+    text-align: center;
+    visibility: hidden;
+}
+
+/* Footer Styles */
+footer {
+    background-color: #000;
+    color: #fff;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    text-decoration: none;
+    padding: 10px;
+}
+
+.footer a {
+   /* Remove the default underline on anchor tags */
+   text-decoration: none;
+   color: black;
+}
+
+.footer img {
+    padding: 10px;
+}
+
+
+

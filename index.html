@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+    
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@500&display=swap" rel="stylesheet">
+    
+    <title>Neil Noyes - Software Developer in Test</title>
+    
+</head>
+    
+<body>
+    
+    <header class="hero">
+        <div class="overlay"></div>
+        <div class="hero-content">
+            <h1>Neil Noyes</h1>
+            <p>Software Developer in Test</p>
+            <a href="assets/pdfs/noyes_new_resume_v9.pdf">
+                <img src='assets/icons/pdf_white.png'>
+            </a>
+        </div>
+    </header>
+    
+    <section id="portfolio" class="portfolio-section">
+        <h2>Work Experience</h2>
+        <div class="projects-container">
+            
+                <div class="project" id="pnc" onclick="redirectToLink('https://www.pnc.com/en/personal-banking.html')">
+                    <h3>PNC Bank</h3>
+                    <p>Software Engineer - Test Automation with Selenium WebDriver in Java</p>
+                </div>
+            
+                <div class="project" id="schneider" onclick="redirectToLink('https://www.schneiderdowns.com/')">
+                    <h3>Schneider Downs & Co. Inc.</h3>
+                    <p>Software Engineer - AL Code customization and extension development for Microsoft Dynamics 365</p>
+                </div>
+            
+                <div class="project" id="hapeman" onclick="redirectToLink('https://hapeman.com/')">
+                    <h3>Hapeman Electronics</h3>
+                    <p>Software Engineer - API Development in C#</p>
+                </div>
+            
+        </div>
+    </section>
+    
+    <section id="portfolio" class="portfolio-section">
+        <h2>Portfolio</h2>
+        <div class="projects-container">
+            <div class="project" id="automationFramework" onclick="redirectToLink('https://github.com/neildnoyes/TestAutomationSeleniumJava')">
+                <h3>Automation Framework</h3>
+                <p>Custom Selenium test automation framework in Java - examples displaying QAPlayground microapp automation utilizing the POM design pattern</p>
+            </div>
+            <div class="project" id="musicBot" onclick="redirectToLink('https://github.com/neildnoyes/discordjsMusicBot')">
+                <h3>Music Bot</h3>
+                <p>Custom node.js music bot for discord utilizing ffmpeg</p>
+            </div>
+            <div class="project" id="gptBot" onclick="redirectToLink('https://github.com/neildnoyes/discordChatGPT')">
+                <h3>Chat GPT Bot</h3>
+                <p>Custom node.js Chat GPT 3.5 wrapper bot utilizing openAI API</p>
+            </div>
+        </div>
+    </section>
+    
+    <section id="resume" class="resume-section">
+        <h2>Resume</h2>
+    </section>
+    
+    <footer>
+        <!--<p>Contact: neilnoyessss@gmail.com</p>-->
+        <a href="https://github.com/neildnoyes?tab=repositories">
+            <img src='assets/icons/github.png'>
+        </a>
+        <a href="https://www.linkedin.com/in/neil-noyes-1b7402190/">
+            <img src='assets/icons/linkedin.png'>
+        </a>
+        <a href="mailto:neilnoyessss@gmail.com">
+            <img src='assets/icons/email.png'>
+        </a>
+    </footer>
+    
+    <script src="js/script.js"></script>
+    
+</body>
+</html>
